@@ -104,7 +104,7 @@ class SLSQP(Optimizer):
         def_opts = {
             # SLSQP Options
             'ACC': [float, 1e-6],  # Convergence Accurancy
-            'MAXIT': [int, 50],  # Maximum Iterations
+            'MAXIT': [int, 500],  # Maximum Iterations
             'IPRINT':
             [int, 1],  # Output Level (<0 - None, 0 - Screen, 1 - File)
             'IOUT': [int, 6],  # Output Unit Number
